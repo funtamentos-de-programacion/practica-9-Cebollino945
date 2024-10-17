@@ -14,7 +14,7 @@ int main() {
     int res = suma(arr, 3);
     int *ptr = &res;
     printf("%d\t", *(ptr));
-    //res = suma2(arr, 3, 3); no funciona porque &arr de una matriz  y arr de un arreglo 
+    //res = suma2(arr, 3, 3); no funciona porque &arr de una matriz  y arr es un apuntador a un arreglo multidimensional 
     //printf("%d\t", *(ptr)); 
     return 0;
 }
