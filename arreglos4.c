@@ -22,15 +22,11 @@ int main() {
 
 
 //TODO: (13) Crea la función suma que realiza la suma de todos los elementos de un arreglo
-int arr[5] = {1, 2, 3, 4, 5};
-int suma(int *ptr, int resultado){
-ptr = arr;
-for(int i= 0; i<5; i++){
-    printf("%d, ", *(ptr +i) );
-}
-}
-int calcularsuma(int ptr[], int 5){
-    int sumas = 0;
-for (int i= 0; i<5; i++){
-    sumas += ptr[i];
+int suma(int*ptr, int resultado){
+    int r=0;
+     for (int i = 0; i < resultado; i++) {
+            r += ptr[i];
+    }
+    return r;
+
 }

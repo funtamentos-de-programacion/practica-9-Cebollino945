@@ -13,12 +13,11 @@ int main() {
    
     
 
-    // TODO: (8) Imprime el arreglo original
  printf("[ ");
     for(int i=0; i<5;i++)
         printf("%d, ", arr[i] );
     printf(" ]\n");
-    // TODO: (9) Crea un ciclo que invierita el arreglo, TIP: es neceario usar un apuntador temporal
+    
     while(start < end){
         int temp = *start;
         *start = *end;

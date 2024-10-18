@@ -14,7 +14,7 @@ int main() {
     int res = suma(arr, 3);
     int *ptr = &res;
     printf("%d\t", *(ptr));
-    //res = suma2(arr, 3, 3); no funciona porque &arr de una matriz  y arr es un apuntador a un arreglo multidimensional 
+    //res = suma2(arr, 3, 3); no funciona porque &arr es un apuntador de una matriz  y arr es un apuntador a un arreglo multidimensional 
     //printf("%d\t", *(ptr)); 
     return 0;
 }
@@ -32,7 +32,7 @@ int r=0;
 
 
 
-//TODO: (25) Crea la función suma que realiza la suma de todos los elementos de un arreglo
+
 int suma(int a[][3], int f){
     int r=0;
      for (int i = 0; i < f; i++) {
